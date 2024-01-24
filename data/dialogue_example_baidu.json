@@ -1,0 +1,318 @@
+{
+    "dialogue_idx": "attraction_goal_4-10_v2###2130",
+    "domains": [
+      "旅游景点"
+    ],
+    "dialogue": [
+      {
+        "turn_idx": 0,
+        "domain": "旅游景点",
+        "system_transcript": "",
+        "system_acts": [],
+        "transcript": "我 是 苏州人 ， 但 不怎么 出去玩 ， 朋友 来 苏州 找 我 ， 准备 带 她 逛逛 水乡 古镇 。",
+        "delex_transcript": "我 是 苏州人 ， 但 不怎么 出去玩 ， 朋友 来 苏州 找 我 ， 准备 带 她 逛逛 [旅游景点_景点类型] 。",
+        "user_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "景点类型",
+            "水乡 古镇"
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": [
+          [
+            "旅游景点-景点类型",
+            "水乡 古镇"
+          ]
+        ]
+      },
+      {
+        "turn_idx": 1,
+        "domain": "旅游景点",
+        "system_transcript": "这里 的 周庄 古镇 不错 。",
+        "delex_system_transcript": "这里 的 [旅游景点_名称] 不错 。",
+        "system_acts": [
+          [
+            "Recommend",
+            "旅游景点",
+            "名称",
+            "周庄 古镇"
+          ]
+        ],
+        "transcript": "我 希望 找个 消费水平 是 中等 的 地方 。",
+        "delex_transcript": "我 希望 找个 消费水平 是 [旅游景点_消费] 的 地方 。",
+        "user_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "消费",
+            "中等"
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-消费",
+                "中等"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": [
+          [
+            "旅游景点-消费",
+            "中等"
+          ]
+        ]
+      },
+      {
+        "turn_idx": 2,
+        "domain": "旅游景点",
+        "system_transcript": "那 就 去 山塘 街 吧 。",
+        "delex_system_transcript": "那 就 去 [旅游景点_名称] 吧 。",
+        "system_acts": [
+          [
+            "Recommend",
+            "旅游景点",
+            "名称",
+            "山塘 街"
+          ]
+        ],
+        "transcript": "这里 的 电话 是 多少 ？",
+        "delex_transcript": "这里 的 电话 是 多少 ？",
+        "user_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "名称",
+            "山塘 街"
+          ],
+          [
+            "Request",
+            "旅游景点",
+            "电话号码",
+            ""
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-消费",
+                "中等"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-名称",
+                "山塘 街"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": [
+          [
+            "旅游景点-名称",
+            "山塘 街"
+          ]
+        ]
+      },
+      {
+        "turn_idx": 3,
+        "domain": "旅游景点",
+        "system_transcript": "他们 家 电话 是 0512 - 65314467 。",
+        "delex_system_transcript": "他们 家 电话 是 [旅游景点_电话号码] 。",
+        "system_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "电话号码",
+            "0512 - 65314467"
+          ]
+        ],
+        "transcript": "他家 评分 高 不 ？",
+        "delex_transcript": "他家 评分 高 不 ？",
+        "user_acts": [
+          [
+            "Request",
+            "旅游景点",
+            "评分",
+            ""
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-消费",
+                "中等"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-名称",
+                "山塘 街"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": []
+      },
+      {
+        "turn_idx": 4,
+        "domain": "旅游景点",
+        "system_transcript": "评分 挺 高 的 4.5 分 。",
+        "delex_system_transcript": "评分 挺 高 的 [旅游景点_评分] 分 。",
+        "system_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "评分",
+            "4.5"
+          ]
+        ],
+        "transcript": "确实 挺高 ， 这个 地方 有 什么 特点 吗 ？",
+        "delex_transcript": "确实 挺高 ， 这个 地方 有 什么 特点 吗 ？",
+        "user_acts": [
+          [
+            "Request",
+            "旅游景点",
+            "特点",
+            ""
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-消费",
+                "中等"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-名称",
+                "山塘 街"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": []
+      },
+      {
+        "turn_idx": 5,
+        "domain": "通用",
+        "system_transcript": "可以 欣赏 苏州 老城 风貌 ， 参观 会馆 等 古迹 ， 乘 游船 ， 拍摄 美丽 的 夜景 。",
+        "delex_system_transcript": "可以 [旅游景点_特点] 。",
+        "system_acts": [
+          [
+            "Inform",
+            "旅游景点",
+            "特点",
+            "欣赏 苏州 老城 风貌 ， 参观 会馆 等 古迹 ， 乘 游船 ， 拍摄 美丽 的 夜景"
+          ]
+        ],
+        "transcript": "谢谢 你 ， 再见 。",
+        "delex_transcript": "谢谢 你 ， 再见 。",
+        "user_acts": [
+          [
+            "Bye",
+            "通用",
+            "",
+            ""
+          ]
+        ],
+        "belief_state": [
+          {
+            "slots": [
+              [
+                "旅游景点-景点类型",
+                "水乡 古镇"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-消费",
+                "中等"
+              ]
+            ],
+            "act": "inform"
+          },
+          {
+            "slots": [
+              [
+                "旅游景点-名称",
+                "山塘 街"
+              ]
+            ],
+            "act": "inform"
+          }
+        ],
+        "turn_label": []
+      }
+    ]
+  }

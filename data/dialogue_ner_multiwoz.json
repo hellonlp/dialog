@@ -1,0 +1,319 @@
+{ 
+  "PMUL0698.json": {
+    "0": {
+      "dialog_act": {
+        "Restaurant-Inform": [
+          [
+            "area",
+            "centre"
+          ],
+          [
+            "food",
+            "chinese"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Restaurant-Inform",
+          "area",
+          "centre",
+          45,
+          51
+        ],
+        [
+          "Restaurant-Inform",
+          "food",
+          "chinese",
+          64,
+          71
+        ]
+      ]
+    },
+    "1": {
+      "dialog_act": {
+        "Restaurant-Inform": [
+          [
+            "pricerange",
+            "all price ranges"
+          ]
+        ],
+        "Restaurant-Request": [
+          [
+            "pricerange",
+            "?"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Restaurant-Inform",
+          "pricerange",
+          "all price ranges",
+          45,
+          61
+        ]
+      ]
+    },
+    "2": {
+      "dialog_act": {
+        "Restaurant-Request": [
+          [
+            "address",
+            "?"
+          ],
+          [
+            "postcode",
+            "?"
+          ],
+          [
+            "pricerange",
+            "?"
+          ]
+        ]
+      },
+      "span_info": []
+    },
+    "3": {
+      "dialog_act": {
+        "Restaurant-Recommend": [
+          [
+            "address",
+            "Regent Street City Centre"
+          ],
+          [
+            "name",
+            "Charlie Chan"
+          ],
+          [
+            "postcode",
+            "cb21db"
+          ],
+          [
+            "pricerange",
+            "cheap"
+          ]
+        ],
+        "general-reqmore": [
+          [
+            "none",
+            "none"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Restaurant-Recommend",
+          "name",
+          "Charlie Chan",
+          13,
+          25
+        ],
+        [
+          "Restaurant-Recommend",
+          "address",
+          "Regent Street City Centre",
+          38,
+          63
+        ],
+        [
+          "Restaurant-Recommend",
+          "postcode",
+          "cb21db",
+          77,
+          83
+        ],
+        [
+          "Restaurant-Recommend",
+          "pricerange",
+          "cheap",
+          91,
+          96
+        ]
+      ]
+    },
+    "4": {
+      "dialog_act": {
+        "Train-Inform": [
+          [
+            "day",
+            "sunday"
+          ],
+          [
+            "leaveat",
+            "16:15"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Train-Inform",
+          "leaveat",
+          "16:15",
+          50,
+          55
+        ],
+        [
+          "Train-Inform",
+          "day",
+          "sunday",
+          76,
+          82
+        ]
+      ]
+    },
+    "5": {
+      "dialog_act": {
+        "Train-Request": [
+          [
+            "departure",
+            "?"
+          ],
+          [
+            "destination",
+            "?"
+          ]
+        ]
+      },
+      "span_info": []
+    },
+    "6": {
+      "dialog_act": {
+        "Train-Inform": [
+          [
+            "departure",
+            "cambridge"
+          ],
+          [
+            "destination",
+            "norwich"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Train-Inform",
+          "departure",
+          "cambridge",
+          18,
+          27
+        ],
+        [
+          "Train-Inform",
+          "destination",
+          "norwich",
+          41,
+          48
+        ]
+      ]
+    },
+    "7": {
+      "dialog_act": {
+        "Train-Inform": [
+          [
+            "leaveat",
+            "16:36"
+          ],
+          [
+            "trainid",
+            "TR1840"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Train-Inform",
+          "trainid",
+          "TR1840",
+          13,
+          19
+        ],
+        [
+          "Train-Inform",
+          "leaveat",
+          "16:36",
+          31,
+          36
+        ]
+      ]
+    },
+    "8": {
+      "dialog_act": {
+        "Train-Inform": [
+          [
+            "bookpeople",
+            "5"
+          ]
+        ],
+        "Train-Request": [
+          [
+            "ref",
+            "?"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Train-Inform",
+          "bookpeople",
+          "5",
+          9,
+          10
+        ]
+      ]
+    },
+    "9": {
+      "dialog_act": {
+        "Train-OfferBooked": [
+          [
+            "ref",
+            "NJB87PAP"
+          ]
+        ],
+        "general-reqmore": [
+          [
+            "none",
+            "none"
+          ]
+        ]
+      },
+      "span_info": [
+        [
+          "Train-OfferBooked",
+          "ref",
+          "NJB87PAP",
+          36,
+          44
+        ]
+      ]
+    },
+    "10": {
+      "dialog_act": {
+        "general-thank": [
+          [
+            "none",
+            "none"
+          ]
+        ]
+      },
+      "span_info": []
+    },
+    "11": {
+      "dialog_act": {
+        "general-bye": [
+          [
+            "none",
+            "none"
+          ]
+        ],
+        "general-welcome": [
+          [
+            "none",
+            "none"
+          ]
+        ]
+      },
+      "span_info": []
+    }
+  }
+}
